@@ -1,21 +1,66 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 <style>
     div.left {
         position: left;
     }
     
+.topnav {
+    overflow: hidden;
+    background-color: maroon;
+}    
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 12 px;
+}
+
+.topnav a:hover {
+    background-color:grey;
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 5px;
+}
+
+.sansserif {
+    font-family: 'Acme', sans-serif;
+}
+
 </style>    
 <body>
 
-    <h2>My Journey to Becoming a Web Developer</h2>
-
-
+    <h2 class="sansserif">My Journey to Becoming a Web Developer</h2>
     <p>
-        <a href=index.html>Home</a>
-        <a href=tags.html>Tags</a>
-        <a href=nested.html>Nested</a>
-        <a href=attributes.html>Attributes</a>
+
+
+
+<div class="topnav">
+    <ul>
+        <li><a href=index.html>Home</a></li>
+        <li><a href=tags.html>Tags</a></li>
+        <li><a href=nested.html>Nested</a></li>
+        <li><a href=attributes.html>Attributes</a></li>
+    </ul>
+    </div>
+
     </p>
     <p>
         This website contains my coding exercise files. 
@@ -29,4 +74,5 @@
     Daud Isa ©2020. All Rights Reserved.
 </p>
 </body>
+</head>
 </html>
