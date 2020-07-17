@@ -59,3 +59,8 @@ p {
     left: 45%;
     color: lightgray;
 }
+
+h2 {
+    color: darkslategray;
+    position: center;
+}
