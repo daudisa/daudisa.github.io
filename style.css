@@ -1,7 +1,7 @@
 
 
 #cover {
-    background-image: url(../daudisa.github.io/cover_photo.jpg);
+    background-image: url(../daudisa.github.io/computer.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -24,13 +24,14 @@ p {
 }
 
 #cover p {
-    color: darkolivegreen;
+    color: darkgreen;
     font-size: 25px;
 }
 .nav_links {
     overflow: hidden;
     position: fixed;
-    top: 0;    
+    top: 20px;
+    left: 20px;    
 }
 
 .nav_links li {
