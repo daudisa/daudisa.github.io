@@ -17,8 +17,7 @@ h1 {
 
 p {
     text-align: center;
-    color: maroon;
-    font-size: 25px;
+
 }
 #cover h1 {
     font-size: 50px;
@@ -70,14 +69,13 @@ h1 {
 #move {
     position: relative;
     animation: mymove 5s infinite;
-    animation-timing-function: linear;
+    color: maroon;
+    font-size: 25px;
 }
 
 @keyframes mymove {
     from {left: -50px;}
     to {left: 50px;}
-    from {right: 50px;}
-    to {right: -50px;}
 }
 
 
