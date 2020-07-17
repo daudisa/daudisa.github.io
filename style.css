@@ -30,19 +30,19 @@ p {
 .nav_links {
     overflow: hidden;
     position: fixed;
-    top: 20px;
-    left: 20px;    
+    top: 4px;
+    left: 0px;    
 }
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0px 4px;
     font-size: 20px;
 }
 
 #bar li a {
     display: block;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 3px;
     color: darkslategray;
     text-decoration: none;
