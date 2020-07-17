@@ -1,1 +1,1 @@
-This is for the COID297 course.
+COID297: Welcome to My Web Develop Journey!
