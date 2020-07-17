@@ -1,0 +1,45 @@
+
+
+#cover {
+    background-image: url(../daudisa.github.io/cover_photo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+} 
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+#cover h1 {
+    font-size: 40px;
+    color: saddlebrown;
+}
+
+#cover p {
+    color: darkolivegreen;
+    font-size: 25px;
+}
+.nav_links {
+    overflow: hidden;
+    position: fixed;
+    top: 0;    
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.nav_links li:hover {
+    background-color: gray;
+    color: red;
+}
