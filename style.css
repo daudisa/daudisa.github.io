@@ -19,7 +19,6 @@ h1 {
 
 p {
     text-align: center;
-
 }
 #cover h1 {
     font-size: 50px;
@@ -52,8 +51,7 @@ p {
 }
 
 .nav_links li:hover {
-    background-color: gray;
-   
+    background-color: gray;   
 }
 
 #copyright {
