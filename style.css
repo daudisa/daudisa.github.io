@@ -71,6 +71,7 @@ h1 {
     animation: mymove 5s infinite;
     color: maroon;
     font-size: 25px;
+    animation-direction: alternate;
 }
 
 @keyframes mymove {
