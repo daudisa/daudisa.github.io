@@ -114,3 +114,16 @@ h1 {
     margin: 120px 500px 25px 500px;
 }
 
+#button_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+}
