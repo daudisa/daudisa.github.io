@@ -13,13 +13,43 @@ html, body, h1, h2, h3, h4, h5, h6 {
     justify-content: center;   
 } 
 
+#html_cover {
+    background-image: url(../daudisa.github.io/html_photo.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 30vh;
+    margin-right: 300px;
+    margin-left: 130px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
 h1 {
     text-align: center;
 }
 
-p {
+#html_cover h1 {
+    margin-top: 420px;
+    color: maroon;
+}
+
+#cover p {
     text-align: center;
 }
+
+p {
+    text-align: left;
+}
+
+#html_cover p {
+    color: whitesmoke;
+
+}
+
 #cover h1 {
     font-size: 50px;
     color: saddlebrown;
@@ -80,3 +110,10 @@ h1 {
 }
 
 
+.main {
+    margin: 120px 500px 25px 500px;
+}
+
+#date button {
+    align-items: center;
+}
