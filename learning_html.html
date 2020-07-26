@@ -6,21 +6,44 @@
 </head>
 <body>
     <header id="html_cover">
-        <h1>Learning HTML</h1>
-       
+        <h1 id="color">Learning HTML</h1>
+           
     </header>
+
+   
+
 <div class="main">    
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 
+<div id="color_button">  
+    <button type="button" onclick="myColor()">Click to Change Color!</button> 
+</div>
+
 <div id="button_box">
-    <button onclick="myFunction()">Publication</button>
+    <button onclick="myButton()">Publication</button>
 </div>
 
 <p id="button"></p>
 
+<div id="user_input">
+    <p>Your name and age: </p>
+    <input type="text" id="text_box">
+    <input type="number" id="number_box"><br>
+</div>
+
+<div id="alert">
+    <form onsubmit="myAlert()">Profession: <input type="text"><input type="submit" value="Submit"></form>
+</div>
+
+<div id="math">
+    <button onclick="document.getElementById('random').innerHTML = getRndInteger(1,100)">Click to Generate Random Number</button>
+    <p id="random"></p>
+</div>
+
 <script src="script.js"></script>
+
 
 </body>
 </html>

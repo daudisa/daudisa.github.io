@@ -121,9 +121,41 @@ h1 {
     height: 50px;
 }
 
+
+#color_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#user_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #button {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10px;
+}
+
+#alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#math {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
