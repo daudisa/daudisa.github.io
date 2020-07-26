@@ -8,7 +8,7 @@
 
 
 
-        <div id="html_change">  
+        <div class="center">  
             <button type="button" onclick="htmlChange()">Click to Change Heading!</button> 
         </div>
 
@@ -23,19 +23,21 @@
         
         <p id="button"></p>
         
-        <div id="user_input">
+        <div class="center">
             <p>Your name and age: </p>
             <input type="text" id="text_box">
             <input type="number" id="number_box"><br>
         </div>
         
-        <div id="alert">
+        <div class="center">
             <form onsubmit="myAlert()">Profession: <input type="text"><input type="submit" value="Submit"></form>
         </div>
         
-        <div id="math">
+        <div class="center">
             <button onclick="document.getElementById('random').innerHTML = getRndInteger(1,100)">Click to Generate Random Number</button>
+            
             <p id="random"></p>
+        
         </div>
         
         <script src="script.js"></script>
