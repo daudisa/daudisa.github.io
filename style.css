@@ -145,3 +145,14 @@ h1 {
 .landing_main {
     margin: 50px 400px 25px 400px;
 }
+
+footer {
+    padding: 4px;
+    background-color: darkgray;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 9px;
+}
