@@ -156,3 +156,27 @@ footer p {
     text-align: center;
     margin-top: 9px;
 }
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 p {
+    margin: 20px 50px 10px 20px;
+}
+
+#avatar img {
+    border-radius: 50%;
+  }
+
+  #avatar {
+      margin-left: 70px;
+      margin-top: 50px;
+  }
+
+ .row h3 {
+     color: maroon;
+ }
+
+ 
