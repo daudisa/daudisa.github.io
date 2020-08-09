@@ -164,9 +164,7 @@ h3 p {
      color: maroon;
  }
 
- #carouselExampleCaptions img {
-     
- }
+
 
 .carousel-inner img {
     width: 100%;
@@ -175,7 +173,7 @@ h3 p {
 
  .carousel-caption {
     position: absolute;
-    top: 42%;
+    top: 38%;
     color: red;
     
  }
@@ -187,4 +185,9 @@ h3 p {
 .row button {
     margin-left: 200px;
     margin-bottom: 30px;
+}
+
+.bg-custom {
+background-image: url(cover2.jpg)
+background-image: url(cover3.jpg)
 }
