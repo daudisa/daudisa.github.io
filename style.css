@@ -202,11 +202,6 @@ background-image: url(cover3.jpg)
     font-size: 60px;
   }
 
-  .bg-custom-js {
-      background-image: url(computer2.jpg);
-      width: 100%;
-  } 
-
   .row img {
       background-size: cover;
       background-position: center;
@@ -225,3 +220,13 @@ background-image: url(cover3.jpg)
      color: saddlebrown;
      margin-top: 380px;
  }
+
+
+
+
+
+
+ .bg-custom-js {
+    background-image: url(computer2.jpg);
+    
+} 
