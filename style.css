@@ -204,6 +204,7 @@ background-image: url(cover3.jpg)
 
   .bg-custom-js {
       background-image: url(computer2.jpg);
+      width: 100%;
   } 
 
   .row img {
@@ -215,9 +216,7 @@ background-image: url(cover3.jpg)
      height: 850px;
      width: 100%;
      background-image: url(computer2.jpg);
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+     
  }
 
  .header_js h1 {
