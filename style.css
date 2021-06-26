@@ -208,19 +208,18 @@ background-image: url(cover3.jpg)
   }
 
  .header_js {
-     height: 850px;
+     height: 800px;
      width: 100%;
-     background-image: url(computer2.jpg);
+     background-image: url(library.jpg);
      
  }
 
  .header_js h1 {
      font-size: 60px;
      font-weight: 400;
-     color: saddlebrown;
-     margin-top: 380px;
+     color: rgb(172, 157, 22);
+     margin-top: 250px;
  }
-
 
 
 
@@ -228,3 +227,48 @@ background-image: url(cover3.jpg)
     background-image: url(computer2.jpg);
     
 } 
+
+
+.container {
+	max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 50px;
+	padding: 0 2rem 2rem;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+#view {
+    background-image: url(library.jpg);
+    height: 60%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contact {
+    background-image: url(contact.jpg);
+    height: 60%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 480px) { 
+    /* CSS Code for when the screen size is 480px Screen size */
+  }
+
+@media screen and (max-width: 1020px) {
+      /* Large Desktop */ 
+    }
+
+@media screen and (max-width: 780px) {
+     /* tablet */ 
+    }
