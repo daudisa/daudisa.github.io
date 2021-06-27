@@ -263,66 +263,19 @@ body, html {
 }
 
 
+.navbar-toggler-icon {
+    background-color: rgb(151, 144, 124) !important;
+}
 
 
 /*
 
-* {
-    box-sizing: border-box;
-  }
-  
-.row {
-    display: flex;
-    flex-wrap: wrap;
+
 }
-
-.column {
-    flex: 50%;
-    padding: 20px;
-}
-
-@media screen and (max-width: 500px) {
-    .row {
-        flex-direction: column;
-    }
-  }
-
-
-
-
-* {
-    box-sizing: border-box;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  
-  
-    
-  .col-1 {
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  .col-2 {
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
- 
-
-
-
-
-
-
-  @media screen and (max-width: 480px) { 
+  @media screen and (max-width: 500px) { 
     /* CSS Code for when the screen size is 480px Screen size */
-  }
+    background-color: green;
+}
 
 @media screen and (max-width: 1020px) {
       /* Large Desktop */ 
@@ -331,6 +284,5 @@ body, html {
 @media screen and (max-width: 780px) {
      /* tablet */ 
     }
-
 
 */
