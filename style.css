@@ -267,13 +267,13 @@ body, html {
     background-color: rgb(151, 144, 124); 
    }
 
-.navbar-toggler-icon {
-    background-color: rgb(151, 144, 124) !important;
-}
 
 
 /*
 
+.navbar-toggler-icon {
+    background-color: rgb(151, 144, 124) !important;
+}
 
 
 }
