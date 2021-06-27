@@ -262,6 +262,10 @@ body, html {
     background-size: cover;
 }
 
+/* Hamburger Icon Color on Sticky Header */
+.is-sticky .mobile-menu .hamburger-inner, .is-sticky .mobile-menu .hamburger-inner::before, .is-sticky .mobile-menu .hamburger-inner::after {    
+    background-color: rgb(151, 144, 124); 
+   }
 
 .navbar-toggler-icon {
     background-color: rgb(151, 144, 124) !important;
