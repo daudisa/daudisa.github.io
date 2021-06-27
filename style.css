@@ -236,10 +236,12 @@ background-image: url(cover3.jpg)
 	padding: 0 2rem 2rem;
 }
 
+
 body, html {
     height: 100%;
     margin: 0;
   }
+
 
 #view {
     background-image: url(library.jpg);
@@ -261,7 +263,64 @@ body, html {
 }
 
 
-@media screen and (max-width: 480px) { 
+
+
+/*
+
+* {
+    box-sizing: border-box;
+  }
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 50%;
+    padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .row {
+        flex-direction: column;
+    }
+  }
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  
+    
+  .col-1 {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .col-2 {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+ 
+
+
+
+
+
+
+  @media screen and (max-width: 480px) { 
     /* CSS Code for when the screen size is 480px Screen size */
   }
 
@@ -272,3 +331,6 @@ body, html {
 @media screen and (max-width: 780px) {
      /* tablet */ 
     }
+
+
+*/
